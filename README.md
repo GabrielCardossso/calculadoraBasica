@@ -2,12 +2,20 @@
 
 Projeto de uma calculadora feita com HTML, CSS e JavaScript, desenvolvida passo a passo com foco em aprendizado.
 
-## 🚀 Versão atual
+## 🚀 Versões
+
+### v1.0 — Versão inicial
 - Estrutura em HTML
 - Lógica em JavaScript
 - Operações básicas (+ - * /)
 - Suporte a números decimais
-- Uso de eval() (versão inicial)
+- Uso de eval()
+
+### v2.0 — Refatoração do código
+- Removido JavaScript inline do HTML
+- Uso de addEventListener
+- Código mais organizado e legível
+- HTML mais limpo e sem lógica acoplada
 
 ## 📌 Próximos passos
 - Melhorar organização do código

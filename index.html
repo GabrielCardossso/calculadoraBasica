@@ -8,39 +8,39 @@
 
     <h1>Calculadora</h1>
 
-    <!-- Visor -->
-     <input type="text" id="display" disabled>
+    <input type="text" id="display" disabled>
 
-     <br><br>
+    <br><br>
 
-     <!-- Botões -->
-      <button onclick="adicionar('7')">7</button>
-      <button onclick="adicionar('8')">8</button>
-      <button onclick="adicionar('9')">9</button>
-      <button onclick="adicionar('/')">/</button>
+    <button class="clear">C</button>
+    <br>
 
-      <br>
+    <button data-value="7">7</button>
+    <button data-value="8">8</button>
+    <button data-value="9">9</button>
+    <button data-value="+">+</button>
 
-      <button onclick="adicionar('4')">4</button>
-      <button onclick="adicionar('5')">5</button>
-      <button onclick="adicionar('6')">6</button>
-      <button onclick="adicionar('*')">*</button>
+    <br>
 
-      <br>
+    <button data-value="4">4</button>
+    <button data-value="5">5</button>
+    <button data-value="6">6</button>
+    <button data-value="-">-</button>
 
-      <button onclick="adicionar('1')">1</button>
-      <button onclick="adicionar('2')">2</button>
-      <button onclick="adicionar('3')">3</button>
-      <button onclick="adicionar('-')">-</button>
+    <br>
 
-      <br>
-      
-      <button onclick="adicionar('0')">0</button>
-      <button onclick="adicionar('.')">.</button>
-      <button onclick="calcular()">=</button>
-      <button onclick="adicionar('+')">+</button>
+    <button data-value="1">1</button>
+    <button data-value="2">2</button>
+    <button data-value="3">3</button>
+    <button data-value="*">*</button>
 
-      <script src="script.js"></script>
-      
+    <br>
+
+    <button data-value="0">0</button>
+    <button data-value=".">.</button>
+    <button class="equals">=</button>
+    <button data-value="/">/</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
