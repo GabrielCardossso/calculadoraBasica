@@ -57,7 +57,7 @@ function calcular() {
         resultado = n1 / n2
     }
 
-    display.value = resultado;
+    display.value = resultado.toLocaleString("pt-BR"); 
 
     // reset pra continuar calculando
     primeiroNumero = resultado.toString();
