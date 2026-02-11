@@ -96,5 +96,5 @@ document.addEventListener("keydown", (e) => {
 
   if (e.key === "Backspace") apagarUltimo();
 
-  if (e.key === "Escape") limpar();
+  if (e.key === "Escape" || "C" ) limpar();
 });
